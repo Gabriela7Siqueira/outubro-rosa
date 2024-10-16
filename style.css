@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #ff69b4;
+  color: white;
+  padding-inline: 2rem;
+  padding-block: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .Titulo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  text-transform: uppercase;
+}
+header ul {
+  display: flex;
+  gap: 2rem;
+  list-style-type: none;
+  text-transform: uppercase;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+}
+section p {
+  max-width: 600px;
+  font-size: 24px;
+}
+
+.SobreOutubroRosa {
+  background-color: #ffd9ec;
+}
+
+.Acaminhada {
+  background-color: #ff69b4;
+  color: white;
+}
+
+.itens {
+  display: flex;
+  background-color: #ffd9ec;
+}
+
+footer {
+  background-color: #ff69b4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+}
+
+.info {
+  text-align: center;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
